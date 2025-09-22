@@ -31,7 +31,7 @@ Sau khi crawl, dữ liệu được **làm sạch (data cleaning)** và xuất r
 3. **Phân tích dữ liệu (Power BI)**
    - **Salary Insights**: phân phối lương, so sánh ngành nghề, tìm công ty trả lương cao.
    - **Job Market Trends**: top kỹ năng, xu hướng deadline tuyển dụng.
-   - **Company & Location Analysis**: bản đồ địa điểm, so sánh số lượng việc theo công ty.
+   - **Company & Location Analysis**: ở trong dự án này để mặc định những công việc liên quan tới data và địa điểm Hà Nội.
 
 ## 📂 Cấu trúc thư mục
 📁 Craw_job_vietnamwork
@@ -39,4 +39,6 @@ Sau khi crawl, dữ liệu được **làm sạch (data cleaning)** và xuất r
 ┣ 📜 clean_data.py # Script làm sạch dữ liệu
 ┣ 📜 jobs_vnw_full.xlsx # Dữ liệu gốc (crawl)
 ┣ 📜 jobs_vnw_clean.xlsx # Dữ liệu đã làm sạch
+┣ 📜 Dasboard_job_data # File Power BI
+┣ 📜 Overview Dashboard # Ảnh dashboard minh họa tổng quan
 ┣ 📜 README.md # Mô tả dự án
